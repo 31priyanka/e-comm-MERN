@@ -9,11 +9,10 @@
   will-change: filter;
   transition: filter 300ms;
 }
-.grid-center{
+.grid-center {
   display: grid;
   justify-content: center;
 }
-
 
 .inputBox {
   display: block;
@@ -76,23 +75,23 @@
   margin-top: -22px;
 }
 
-.product-list{
-text-align: center;
-margin-top: 50px;
+.product-list {
+  text-align: center;
+  margin-top: 50px;
 }
 
-.product-list ul li{
+.product-list ul li {
   display: inline-block;
   border: 1px solid skyblue;
   padding: 5px;
   width: 150px;
 }
 
-.product-list ul{
+.product-list ul {
   margin: 0%;
 }
 
-.invalid-input{
+.invalid-input {
   color: red;
   display: block;
 }
