@@ -25,7 +25,7 @@ const AddProduct = () => {
     result = await result.json();
     console.warn(result);
   };
-
+  
   return (
     <div className="grid-center">
       <h2>Add Product</h2>

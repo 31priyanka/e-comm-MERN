@@ -17,8 +17,9 @@
 .inputBox {
   display: block;
   margin: 10px;
-  padding: 7px;
+  padding: 12px;
   width: 300px;
+  border-radius: 14px;
   border: 1px solid skyblue;
 }
 
@@ -53,8 +54,8 @@
 }
 
 .footer {
-  position: absolute;
-  bottom: 0;
+  position: fixed;
+  bottom: 0%;
   text-align: center;
   width: 100%;
   background-color: skyblue;
@@ -83,8 +84,9 @@
 .product-list ul li {
   display: inline-block;
   border: 1px solid skyblue;
-  padding: 5px;
+  padding: 9px;
   width: 150px;
+  border-radius: 10px;
 }
 
 .product-list ul {
@@ -95,6 +97,16 @@
   color: red;
   display: block;
 }
+
+.search-product-box{
+  width: 400px;
+  margin: 20px;
+  height: 40px;
+  border: 1px solid skyblue;
+  padding-left: 20px;
+  border-radius: 10px;
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);

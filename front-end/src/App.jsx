@@ -1,6 +1,6 @@
 import "./App.css";
-import Nav from "./components/Nav";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import SignUp from "./components/SignUp";
 import PrivateComponent from "./components/PrivateComponent";
